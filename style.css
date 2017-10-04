@@ -18,6 +18,7 @@ nav li {
 }
 
 .title{
+  font-family: 'Kaushan Script', cursive;
   font-size: 40px;
   margin: 60;
 }
@@ -34,11 +35,20 @@ a:link{
   font-weight: bold;
 }
 a:visited {
-    color: white;
+  text-decoration:none;
+  color: white;
 }
 a:hover {
-    color: #5109C9;
+  text-decoration:none;
+  color: #5109C9;
 }
 a:active {
+    text-decoration:none;
     color: white;
+}
+.grid-container {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: auto;
+ grid-gap: 3em 1em;
 }
