@@ -1,0 +1,44 @@
+*, *::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 30;
+  border: 10;
+  background-color: white;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+nav ul {
+  list-style: none;
+}
+nav li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.title{
+  font-size: 40px;
+  margin: 60;
+}
+.navbar {
+  background-color: #37075C;
+  padding: 2px;
+  border: 10;
+
+}
+
+a:link{
+  color: white;
+  text-decoration:none;
+  font-weight: bold;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: #5109C9;
+}
+a:active {
+    color: white;
+}
