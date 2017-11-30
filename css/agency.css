@@ -160,7 +160,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header-img.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -182,7 +182,7 @@ header.masthead {
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -199,7 +199,7 @@ header.masthead {
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
+      font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; } }
 
 .service-heading {
   margin: 15px 0;
@@ -479,7 +479,7 @@ header.masthead {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/grump.jpg");
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
