@@ -11,9 +11,9 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #511537; }
+  color: #9D587F; }
   a.active, a:active, a:focus, a:hover {
-    color: #511537; }
+    color: #9D587F; }
 
 .text-primary {
   color: #511537 !important; }
@@ -59,12 +59,12 @@ section {
     background-color: #511537; }
   .btn-primary:hover {
     color: white;
-    border-color: #f6bf01;
+    border-color: #9D587F;
     background-color: #511537; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
+    border-color: #9D587F;
     background-color: #511537; }
     .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
     .open > .btn-primary.dropdown-toggle.focus,
@@ -80,10 +80,10 @@ section {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #fed136;
-    background-color: #511537; }
+    border-color: #380120;
+    background-color: #380120; }
   .btn-primary .badge {
-    color: #511537;
+    color: #380120;
     background-color: white; }
 
 .btn-xl {
@@ -108,7 +108,7 @@ body {
   -webkit-tap-highlight-color: #511537; }
 
 #mainNav {
-  background-color: #212529; }
+  background-color: #766C77; }
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -122,7 +122,7 @@ body {
     color: #511537;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #fec503; }
+      color: #; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -131,7 +131,7 @@ body {
     color: white;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #fed136; }
+      color: #4F1837; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -152,7 +152,7 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #212529; }
+      background-color: #766C77; }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
@@ -222,7 +222,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(254, 209, 54, 0.9); }
+      background: #4F1837; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -313,7 +313,7 @@ header.masthead {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #212529; }
+    background-color: #766C77; }
     .portfolio-modal .close-modal .lr .rl {
       /* Safari and Chrome */
       z-index: 1052;
@@ -323,7 +323,7 @@ header.masthead {
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
-      background-color: #212529; }
+      background-color: #766C77; }
 
 .portfolio-modal .modal-backdrop {
   display: none;
@@ -378,7 +378,7 @@ header.masthead {
       color: white;
       border: 7px solid #e9ecef;
       border-radius: 100%;
-      background-color: #fed136; }
+      background-color: #4F1837; }
       .timeline > li .timeline-image h4 {
         font-size: 10px;
         line-height: 14px;
@@ -478,7 +478,7 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
-  background-color: #212529;
+  background-color: #766C77;
   background-image: url("../img/grump.jpg");
   background-repeat: no-repeat;
   background-position: center; }
@@ -494,7 +494,7 @@ section#contact {
     section#contact .form-group textarea.form-control {
       height: 248px; }
   section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #4F1837;
     box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
@@ -544,6 +544,6 @@ ul.social-buttons {
     color: white;
     border-radius: 100%;
     outline: none;
-    background-color: #212529; }
+    background-color: #766C77; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
+      background-color: #4F1837; }
