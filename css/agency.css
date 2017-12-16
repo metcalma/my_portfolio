@@ -97,7 +97,12 @@ section {
 ::selection {
   background: #511537;
   text-shadow: none; }
-
+.captiontext {
+  background: rgba(118, 108, 119,.65);
+}
+.img{
+  width: 230%;
+}
 img::selection {
   background: transparent; }
 
@@ -285,6 +290,9 @@ header.masthead {
     font-style: italic;
     margin: 20px 0 30px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .portfolio-modal .modal-content p.item-bio {
+      text-align: left;
+      font-size: 20px;}
   .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px; }
